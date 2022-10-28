@@ -19,4 +19,9 @@
 3. is_full() - Return True if queue is full else False
 4. display() - Display all the elements of the queue
 
+## Types of Queue
+1. Simple Queue
+2. Circular Queue
+3. Priority Queue
+
 
