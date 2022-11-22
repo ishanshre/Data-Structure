@@ -5,6 +5,10 @@
 4. It is called singly linked list as it contains only one link to the next node.
 5. It goes in one direction only
 
+|Head| ---> |data|addr| ---> |data|addr| ---> |data|addr| --->|data|null|
+6. Head is a portion that stores the pointer location of the first node.
+7. While null pointer tells that it the last node in the linked list
+
 ## In C,
     '''
     struct node {

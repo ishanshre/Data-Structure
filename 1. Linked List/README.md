@@ -1,9 +1,10 @@
 # Linked List
-1. Linked List is a liner data structure
-2. Every linked list has two parts.They are data section and address section.
-3. Data Section consist of the elements whereas address section contains the address of next element of list which is called node
-4. Size of the linked list is not fixed and can be stored in any location in the list
-5. Unlike arrays, linked list elements are not stored at a contiguous location
+1. Linked List is a dynamic data structure which consist of nodes.
+2. Linked List is a liner data structure
+3. Every linked list has two parts.They are data section and address section.
+4. Data Section consist of the elements whereas address section contains the address of next element of list which is called node
+5. Size of the linked list is not fixed and can be stored in any location in the list
+6. Unlike arrays, linked list elements are not stored at a contiguous location
 Head --> |data|addr| --> |data|addr| --> |data|null| --> Tail 
 
 ## Advantages of Linked List
@@ -16,10 +17,15 @@ Head --> |data|addr| --> |data|addr| --> |data|null| --> Tail
 3. Linked list are not cached friendly
 
 ## Basic Operation of Linked List
-1. Traversing: To traverse all the node one by one. Display all the nodes 
+1. Creation: creation of the node.
 2. Insertion: To insert new node at specific positions
-3. Deletion: To delete nodes from specific position
-4. Search: To search for an element from the linked list
+    a. At the Beginning
+    b. be at anywhere
+    c. at last
+3. Display: Displaying the node's data
+4. Deletion: To delete nodes from specific position or anywhere
+5. Traversing: To traverse all the node one by one.( Visitng each node once)
+6. Search: To search for an element from the linked list
 
 
 ## Representation of Linked List
