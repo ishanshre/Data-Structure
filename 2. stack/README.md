@@ -23,6 +23,9 @@
 3. Undo function in text editors
 4. Infix to PostFix conversion 
 5. Stack are used for backtracking and parenthesis matching
+6. Infix to Postfix
+7. Implementing function calls
+
 
 ## Efficiency of Stack
 1. Items in the stack can be pushed or poped in time complexity of order 1 i.e. O(1)
@@ -42,3 +45,55 @@
 3. To many objects leads to stack overflow
 4. Random accessing is not possible in stack
 
+
+## Algorithm for push()
+1. Add items to the stack if stack is not full otherwise return stack overflow
+2. Procedure for push :-
+  begin
+  if stack is full
+    return stack overflow
+  else
+    increase the top value
+    assign the item into stack with index top
+  end if-else
+  end procedure
+
+## Algorithm for pull()
+1. pull() method removes the item from the stack. Check if stack is empty then return stack underflow else store the value of stack with index top and decrement the top.
+2. Procedure for pull() :-
+  begin
+  if stack is empty
+    return stack underflow
+  else
+    store the value of stack[top]
+    decrement the top
+  end if else
+  end procedure
+
+
+## Algorithm for top
+1. Return the element of stack with index top
+2. Procedure:
+  begin
+  return stack[top]
+
+## Algorithm for isEmpty()
+1. if value of top is less than 1 then return stack is empty else return stack is not empty
+2. Procedure 
+  begin
+  if top < 1
+    reutrn stack is empty
+  else
+    return stack is not empty
+  end procedure
+
+## Algorithm for isFull()
+1. If the value of top is equal to or greater than size of stack - 1 return is full else stack is empty
+2. Procedure
+  begin
+    if (top >= size of stack - 1):
+      return stack is full or overflow
+    else 
+      return stack is empty
+    end if-else
+  end procedure
