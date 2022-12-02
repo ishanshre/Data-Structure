@@ -25,3 +25,28 @@
 3. Priority Queue
 
 
+## Algorithm for isEmpty()
+1. if values of front and rear is less than zero then return queue is empty else return queue is not empty
+2. Procedure :-
+    begin
+    if (front and rear < zero)
+        return queue is empty
+    else
+        return queue is not empty
+    end if else
+    end procedure
+
+## Algorithm for isFull()
+1. if value of rear is equals to (size of queue - 1) then  return queue is full else return queue is not full
+2. Procedure
+    begin
+        if (rear equals to (size of queue - 1)
+            return queue is full
+        else
+            return queue is not full
+        end if else
+    end procedure
+
+
+
+
