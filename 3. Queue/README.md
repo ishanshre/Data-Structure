@@ -48,5 +48,62 @@
     end procedure
 
 
+## Algorithm for enqueue()
+1. If queue is full return Queue overflow
+2. Else if queue is empty then front and rear set to zerto and queue[rear] set to new item
+3. Else increament the rear and queue[rear] set to new item
+4. Procedure:
+    begin
+        if queue is full or rear equals to (szie of queue - 1)
+            return Queue is full or Queue Overflow
+        else if queue is empty
+            set front and rear to zero
+            set queue[rear] equals to new item
+        else
+            increment rear
+            set queue[rear] equals to new itemn
+        end if else
+    end procedure
+
+## Algorithm for dequeue()
+1. If queue is empty then return Queue Underflow
+2. Else if there is only one item in queue or front equals to rear then store the element of queue[front] in a another variable and set front and rear to -1
+3. Else store the element queue[front] in another variable and increment the front
+4. Procedure :
+    begin
+        if queue is empty or front and rear < 0
+            return queue under flow or empty
+        else if front equals to rear
+            store the element queue[front] to another variable
+            front = rear = -1
+        else
+            increse the front by 1
+        end if else
+    end procedure
+
+
+## Algorithm for display()
+1. Check if queue is empty then return queue underflow or empty
+2. Else display the value from front to rear using loop
+3. Procedure:
+    begin
+        if queue is empty:
+            return queue under flow or empty
+        else
+            display the items from front to the rear
+        end if else
+    end procedure
+
+
+## Algorithm for peek
+1. Check if queue is empty then return queue underflow or empty
+2. if not empty then display the front element
+3. Procedure:
+    begin 
+        if queue is empty
+            return queue underflow or queue empty
+        else
+            return queue[front]
+    end procedure
 
 
