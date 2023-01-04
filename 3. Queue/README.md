@@ -24,7 +24,7 @@
 2. Circular Queue
 3. Priority Queue
 
-
+#Algorithm for linear queue
 ## Algorithm for isEmpty()
 1. if values of front and rear is less than zero then return queue is empty else return queue is not empty
 2. Procedure :-
